@@ -1,29 +1,37 @@
 .gallery,
-        .aside,
-        .footer,
-        .article-title,
-        .article-buy {
-            border: 1px black solid;
-            background-color: rgb(114, 179, 212);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+.aside,
+.footer,
+.article-title,
+.article-buy {
+    border: 1px black solid;
+    background-color: rgb(114, 179, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}            
+
+.gallery {
+    margin-right: 1em;
+}
+
+.main {
+    min-height: 60vh;
+}
+
+.aside,
+.footer {
+    min-height: 20vh;
+}
             
-        }
+.article {
+    height: 100%;
+    align-content: space-between;
+}
 
-        .gallery {
-            margin-right: 1em;
-        }
+.article-title {
+    height: 30%;
+}
 
-        .main {
-            min-height: 60vh;
-        }
-
-        .aside,
-        .footer {
-            min-height: 20vh;
-        }
-        
-        .article {
-            height: 100%;
-        }
+.article-buy {
+    height: 66%;
+}
